@@ -1,0 +1,9 @@
+.page {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 28px 0 20px;
+  font-family:'Inter', 'Arial', 'Helvetica', 'sans-serif';
+  background-color: #2a2c2f;
+}

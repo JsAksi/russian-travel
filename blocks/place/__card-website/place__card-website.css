@@ -1,0 +1,26 @@
+@import url(./__card-website_link/place__card-website_link.css);
+@import url(./__card-website_url-heading/card-website_url-heading.css);
+
+.place__card-website {
+    grid-area: website;
+    align-self: end;
+  }
+
+@media screen and (max-width: 1030px) {
+    .place__card-website {
+      margin: 0 0 16px 0;
+    }
+}
+  
+@media screen and (max-width: 770px) {
+    .place__card-website  {
+      margin: 0 0 20px 16px;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .place__card-website  {
+      max-width: 300;
+      display: none;
+    }
+}

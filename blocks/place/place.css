@@ -1,0 +1,36 @@
+@import url(./__card-image/place__card-image.css);
+@import url(./__card-paragraph/place__card-paragraph.css);
+@import url(./__card-title/place__card-title.css);
+@import url(./__card-website/place__card-website.css);
+@import url(./__card/place__card.css);
+@import url(./__card-text/place__card-text.css);
+
+.place {
+    margin: 92px auto 0;
+    padding: 0 148px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1030px) {
+  .place {
+    max-width: 928px;
+    margin: 0 auto 48px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .place {
+    max-width: 720px;
+    margin: 0 auto 24px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .place {
+    max-width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+}
