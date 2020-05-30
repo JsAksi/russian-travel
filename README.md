@@ -13,3 +13,7 @@
 #### **В работе можно увидеть:** 
 корректное отображение всего контента на устройствах с разным разрешением экрана.
 
+Ссылки:
+* На сам репозторий https://github.com/JsAksi
+* На ветку master https://github.com/JsAksi/russian-travel
+* На проект GithubPages http://jsaksi.github.io/russian-travel/index.html 
