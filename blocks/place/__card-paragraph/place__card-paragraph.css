@@ -16,7 +16,6 @@
 @media screen and (max-width: 1030px) {
   .place__card-paragraph {
     max-width: 456px;
-    padding-right: 48px;
   }
 }
   
@@ -25,16 +24,13 @@
     max-width: 352px;
     font-size: 16px;
     line-height: 26px;
-    word-wrap: break-word;
   }
 }
 
 @media screen and (max-width: 400px) {
   .place__card-paragraph {
     max-width: 288px;
-    font-size: 16px;
-    line-height: 26px;
     padding: 16px;
-    word-wrap: break-word;
+
   }
 }
