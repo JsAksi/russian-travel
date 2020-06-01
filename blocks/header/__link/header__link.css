@@ -1,18 +1,18 @@
-@import url(./_ru/header__lang-link_ru.css);
-@import url(./_en/header__lang-link_en.css);
-
-.header__lang-link {
-  width: 30px;
-  height: 28px;
-  margin-left: 18px;
+.header__link {
   font-family:'Inter', 'Arial', 'Helvetica', 'sans-serif';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  color: #ffffff;
+  text-decoration: none;
+  color: #fff;
+  transition: ease-in 0.1s opacity;
+  }
+  
+.header__link:hover {
+  opacity: 0.8;
 }
-
+  
 @media screen and (max-width: 330px) {
   .header__link {
     font-size: 18px;

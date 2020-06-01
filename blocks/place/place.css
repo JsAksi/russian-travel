@@ -22,8 +22,9 @@
 @media screen and (max-width: 770px) {
   .place {
     max-width: 720px;
-    margin: 0 auto 24px;
-    padding: 0;
+    margin: 0 auto 88px;
+    /*margin: 0 auto 24px;*/
+    padding: 24px;
   }
 }
 

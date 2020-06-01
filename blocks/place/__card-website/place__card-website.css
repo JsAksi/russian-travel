@@ -18,7 +18,7 @@
     }
 }
   
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 610px) {
     .place__card-website  {
       max-width: 300;
       display: none;

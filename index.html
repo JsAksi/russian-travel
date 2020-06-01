@@ -10,13 +10,15 @@
   <body class="body">
     <div class="page">
       <header class="header">
-        <div class="header__navigation">
-          <img class="header__logo" src="./images/header-logo.svg" alt="Россия">
-          <div class="header__links">
-            <a href="#" class="header__lang-link header__lang-link_ru">Ru</a>
-            <a href="#" class="header__lang-link header__lang-link_en">En</a>
-          </div>
-        </div>
+        <img class="header__logo" alt="Логотип Россия" src="./images/header-logo.svg">
+        <ul class="header__lang-items">
+          <li class="header__lang">
+            <a class="header__link header__link_active" href="#">Ru</a>
+          </li>
+          <li class="header__lang">
+            <a class="header__link" href="#">En</a>
+          </li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
@@ -28,12 +30,12 @@
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-          <ul class="intro__lists">
-            <li><a href="#" class="intro__lists intro__list">Часовых поясов 11</a></li>
-            <li><a href="#" class="intro__lists intro__list">Объектов природного наследия ЮНЕСКО 12</a></li>
-            <li><a href="#" class="intro__lists intro__list">Объектов культурного наследия ЮНЕСКО 16</a></li>
-            <li><a href="#" class="intro__lists intro__list">Природных заповедников 105</a></li>
-            <li><a href="#" class="intro__lists intro__list">Аэропортов 241</a></li>
+          <ul class="intro__list">
+            <li>Часовых поясов <span class="intro__info-link">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__info-link">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__info-link">16</span></li>
+            <li>Природных заповедников <span class="intro__info-link">105</span></li>
+            <li>Аэропортов <span class="intro__info-link">241</span></li>
           </ul>
         </section>
         <section class="photo-grid">

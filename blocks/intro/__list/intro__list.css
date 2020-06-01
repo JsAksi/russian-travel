@@ -1,15 +1,12 @@
 .intro__list {
-    margin: 0;
-    padding-left: 0;
+    max-width: 690px;
     font-family:'Inter', 'Arial', 'Helvetica', 'sans-serif';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.intro__list:hover {
-    opacity: 0.8;
+    color: #fff;
+    list-style: none;
+    margin: 0 auto 0 0;
+    padding: 0;
 }
